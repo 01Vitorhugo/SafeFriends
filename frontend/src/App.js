@@ -1,12 +1,13 @@
 // import logo from './logo.svg'; Usar fotos assim
 
-import Login from "./Components/PageIntro";
+
+import RoutsPage from "./Router";
 
 function App() {
   return (
     <div className="App">
-      <Login/>
-        
+     <RoutsPage/>
+      
 
     </div>
   );

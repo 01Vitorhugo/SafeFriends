@@ -1,16 +1,18 @@
 import './login.css'
 import logoname from '../../Photos/logoNome.png'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
+
 
 export default function Login(){
     const [email, setEmail] = useState('')
     const [senha, setSenha] = useState('')
 
     function acesso(){
-        if(email === 'admin@.com' && senha === '12345'){
-            alert('Acesso Aprovado')
-            setEmail('')
-            setSenha('')
+        if(email === '00' && senha === '00'){
+            window.location.href = "/home"
+           
+           
 
         }else{
             alert('Acesso negado')
@@ -38,8 +40,12 @@ export default function Login(){
 
                 <button onClick={acesso}>Acessar</button>
             </div>
+            
+            <Link to="/" className='animate__animated animate__fadeInUpBig animate__slow'>Pedir Acesso</Link>
 
-            <p className='animate__animated animate__fadeInUpBig animate__slow' value=''>Pedir acesso</p>     
+            
+
+              
         </div>
     )
 }
