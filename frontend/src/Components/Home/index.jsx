@@ -14,7 +14,7 @@ export default function Homepage() {
         <div className="home">
 
             <div className='home-boxLogo'>
-                <img src={logo} />
+                <img src={logo} alt='testing'/>
             </div>
 
             <div className='public'>
@@ -22,13 +22,13 @@ export default function Homepage() {
                 <div className='box-public'>
                     <div className='box-info'>
                         <figure>
-                            <img src={profile} alt="photo profile" />
+                            <img src={profile} alt="photoprofile" />
                         </figure>
                         <p>Vitor Hugo</p>
                     </div>
 
                     <div className='photo-public'>
-                        <img src={photo1} alt="photo public" />
+                        <img src={photo1} alt="photopublic" />
                     </div>
 
                     <div className='subtitle'>
@@ -47,13 +47,13 @@ export default function Homepage() {
                 <div className='box-public'>
                     <div className='box-info'>
                         <figure>
-                            <img src={profile} alt="photo profile" />
+                            <img src={profile} alt="photoprofile" />
                         </figure>
                         <p>Vitor Hugo</p>
                     </div>
 
                     <div className='photo-public'>
-                        <img src={photo3} alt="photo public" />
+                        <img src={photo3} alt="photopublic" />
                     </div>
 
                     <div className='subtitle'>
@@ -72,13 +72,13 @@ export default function Homepage() {
                 <div className='box-public'>
                     <div className='box-info'>
                         <figure>
-                            <img src={profile} alt="photo profile" />
+                            <img src={profile} alt="photoprofile" />
                         </figure>
                         <p>Vitor Hugo</p>
                     </div>
 
                     <div className='photo-public'>
-                        <img src={photo4} alt="photo public" />
+                        <img src={photo4} alt="photopublic" />
                     </div>
 
                     <div className='subtitle'>
@@ -97,13 +97,13 @@ export default function Homepage() {
                 <div className='box-public'>
                     <div className='box-info'>
                         <figure>
-                            <img src={profile} alt="photo profile" />
+                            <img src={profile} alt="photoprofile" />
                         </figure>
                         <p>Vitor Hugo</p>
                     </div>
 
                     <div className='photo-public'>
-                        <img src={photo5} alt="photo public" />
+                        <img src={photo5} alt="photopublic" />
                     </div>
 
                     <div className='subtitle'>
@@ -122,13 +122,13 @@ export default function Homepage() {
                 <div className='box-public'>
                     <div className='box-info'>
                         <figure>
-                            <img src={profile} alt="photo profile" />
+                            <img src={profile} alt="photoprofile" />
                         </figure>
                         <p>Vitor Hugo</p>
                     </div>
 
                     <div className='photo-public'>
-                        <img src={photo6} alt="photo public" />
+                        <img src={photo6} alt="photopublic" />
                     </div>
 
                     <div className='subtitle'>
